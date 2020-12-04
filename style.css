@@ -1,20 +1,53 @@
-body{
-    background-image: url(../images/brooke-lark-HlNcigvUi4Q-unsplash.jpg) ;
-    background-repeat: no-repeat;
+.inputuser{background-image:url(../images/brooke-lark-HlNcigvUi4Q-unsplash.jpg);
     background-size: cover;
-    min-width:100vh ;
-}
-.topsection{
-   
-    text-align:center;
-    margin-top:18%;
-    
+    height: 100vh;
+    margin-top: 0%;
 }
 .first > p {
     text-align: center;
-    width: 40%;
-    margin-left: 30%;
+  width: 40%;
+}
+.heading{
+    display:inline;
+    position: absolute;
     background-color: white;
     color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top:28%;
+    margin-left: 25%;
+}
+.code{
+    width: 50%;
+    padding: .5%;
+    border-radius: 2rem;
+    border: none;
+    text-align: center;
+    color: black;
+    font-size: large;
+    margin-top: 30%;
+    margin-left: 25%;
+}
+.first>p {
+    position: absolute;
+    background-color: white;
+    font-size:large;
+    font-style: oblique;
+    margin-top: 20%;
+    margin-left: 25%;
+}
+.intro{
+    position:absolute;
+margin-top: 15%;
+margin-left: 25%;
+font-size:xx-large;
+font-style: initial;
+}
+.first > button{
+    display: block;
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 5px;
+    background-color: pink;
+    border:none;
+    border-radius: 2rem;
+    padding: .5rem;
 }

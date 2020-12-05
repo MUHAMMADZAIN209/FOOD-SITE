@@ -51,6 +51,18 @@ font-style: initial;
     border-radius: 2rem;
     padding: .5rem;
 }
+.first > button:hover{
+    color: black;
+    background-color: lightblue;
+transition: 3s;
+cursor: pointer;
+}
+.first > button:active{
+    color: white;
+    background-color: black;
+    transition: 1s;
+}
+
 .imgresponsive{
     max-width: 100%;
 }

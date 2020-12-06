@@ -1,7 +1,9 @@
+
 .inputuser{background-image:url(../images/brooke-lark-HlNcigvUi4Q-unsplash.jpg);
     background-size: cover;
     height: 100vh;
     margin-top: 0%;
+   
 }
 .first > p {
     text-align: center;
@@ -16,6 +18,7 @@
     margin-left: 25%;
 }
 .code{
+    outline: none;
     width: 50%;
     padding: .5%;
     border-radius: 2rem;
@@ -34,15 +37,17 @@
     margin-top: 20%;
     margin-left: 25%;
 }
-.intro{
-    position:absolute;
-margin-top: 15%;
-margin-left: 25%;
-font-size:xx-large;
-font-style: initial;
+div .sticky {
+    position: absolute;
+    margin-top: 15%;
+    font-size: x-large;
+    margin-left: 30%;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   background-color: white;
 }
 .first > button{
     display: block;
+    outline: none;
     width: 30%;
     margin-left: 35%;
     margin-top: 5px;
@@ -64,17 +69,21 @@ cursor: pointer;
 }
 
 .imgresponsive{
+   
     max-width: 100%;
 }
 .items{
+    
     width: 80%;
     margin-left: auto;
     margin-right: auto;
 }
 .foods{
+   
     float: left;
     width: 32.33%;
     margin-left: .5rem;
     margin-top: 17%;
 }
+
 
